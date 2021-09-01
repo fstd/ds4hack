@@ -1,0 +1,8 @@
+ds4hack.eep
+ds4hack.elf
+ds4hack.hex
+ds4hack.lss
+ds4hack.map
+ds4hack.sym
+/obj/
+/.dep/

@@ -1,0 +1,35 @@
+IN(UNA0, A, 0, 1)
+IN(UNA1, A, 1, 1)
+IN(UNA2, A, 2, 1)
+IN(UNA3, A, 3, 1)
+IN(UNA4, A, 4, 1)
+IN(UNA5, A, 5, 1)
+IN(UNA6, A, 6, 1)
+IN(UNA7, A, 7, 1)
+
+IN(UNB0, B, 0, 1)
+IN(UNB1, B, 1, 1)
+IN(UNB2, B, 2, 1)
+IN(UNB3, B, 3, 1)
+OUT(SPI_SS, B, 4, 1) // /SS
+OUT(SPI_MOSI, B, 5, 0) // MOSI
+IN(SPI_MISO, B, 6, 0) // MISO
+OUT(SPI_SCK, B, 7, 0) // SCK
+
+IN(UNC0, C, 0, 1)
+IN(UNC1, C, 1, 1)
+IN(UNC2, C, 2, 1)
+IN(UNC3, C, 3, 1)
+IN(UNC4, C, 4, 1)
+IN(UNC5, C, 5, 1)
+IN(UNC6, C, 6, 1)
+IN(UNC7, C, 7, 1)
+
+IN(UND0, D, 0, 0) // UART RXD
+IN(UND1, D, 1, 0) // UART TXD
+IN(UND2, D, 2, 1)
+IN(SPI_INT, D, 3, 0)
+IN(UND4, D, 4, 1)
+IN(UND5, D, 5, 1)
+OUT(UND6, D, 6, 0)
+IN(UND7, D, 7, 1)
